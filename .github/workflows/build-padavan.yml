@@ -72,7 +72,6 @@ jobs:
         if [ $KERNEL = "4.4" ] ; then
           echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=y" >> .config #ddnsto  ~0.5M
           echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=y" >> .config #aliddns
-          echo "CONFIG_FIRMWARE_INCLUDE_CLOUDFLAREDDNS=y" >> $m.config #CLOUDFLAREDDNS
           echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> $m.config #smartdns
           echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNSBIN=y" >> $m.config #smartdns二进制文件
           else
