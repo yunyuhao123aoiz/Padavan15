@@ -34,7 +34,7 @@ jobs:
       env:
         KERNEL: 3.4
       run: |
-        git clone --depth=1 https://github.com/yunyuhao123aoiz/Padavanbf.git /opt/Padavan
+        git clone --depth=1 https://github.com/yunyuhao123aoiz/Padavan.git /opt/Padavan
         cd /opt/Padavan/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
