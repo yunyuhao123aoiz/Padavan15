@@ -70,11 +70,11 @@ jobs:
         #以下选项是定义你需要的功能（y=集成,n=忽略），重新写入到.config文件
         ######################################################################
         echo "CONFIG_FIRMWARE_INCLUDE_CURL=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_MINIEAP=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_MINIEAP=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_TTYD=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_NANO=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_TTYD=n" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_NANO=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=y" >> .config #阿里DDNS
         echo "CONFIG_FIRMWARE_INCLUDE_MTR=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SOCAT=y" >> .config
