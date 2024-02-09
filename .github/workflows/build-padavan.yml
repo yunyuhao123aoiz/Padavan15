@@ -40,7 +40,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: PSG1218
+        TNAME: K2P
         KERNEL: 3.4
       run: |
         cd /opt/Padavan/trunk
