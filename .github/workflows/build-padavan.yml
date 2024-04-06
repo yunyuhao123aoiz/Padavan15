@@ -85,7 +85,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=n" >> .config #可以不集成
         echo "CONFIG_FIRMWARE_INCLUDE_XRAY=n" >> .config #集成xray执行文件  ~4.5M
         echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=n" >> .config #集成v2ray执行文件
-        echo "CONFIG_FIRMWARE_INCLUDE_DROPBEAR=y" >> .config #DROPBEAR
+        echo "CONFIG_FIRMWARE_INCLUDE_DROPBEAR=n" >> .config #DROPBEAR
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSH=y" >> .config #OPENSSH
         else
         echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config #内网穿透FRPC
